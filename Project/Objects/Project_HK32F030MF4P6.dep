@@ -1,0 +1,657 @@
+Dependencies for Project 'Project', Target 'HK32F030MF4P6': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\Source\User\hk32f030m_it.c)(0x62CCFDE6)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_it.o --omf_browse .\objects\hk32f030m_it.crf --depend .\objects\hk32f030m_it.d)
+I (..\Source\User\main.h)(0x62B47CDE)
+I (..\Source\User\hk32f030m_it.h)(0x5E5DD682)
+I (..\Source\User\usart\bsp_usart.h)(0x62CCEF76)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\User\main.c)(0x64000284)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+I (..\Source\User\usart\bsp_usart.h)(0x62CCEF76)
+I (..\Source\User\led\bsp_led.h)(0x62C248A3)
+I (..\Source\User\sht\sht3x.h)(0x63FF17D9)
+F (..\Source\User\usart\bsp_usart.c)(0x63F6DC8F)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\bsp_usart.o --omf_browse .\objects\bsp_usart.crf --depend .\objects\bsp_usart.d)
+I (..\Source\User\usart\bsp_usart.h)(0x62CCEF76)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\User\led\bsp_led.c)(0x62C4F5D9)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\bsp_led.o --omf_browse .\objects\bsp_led.crf --depend .\objects\bsp_led.d)
+I (..\Source\User\led\bsp_led.h)(0x62C248A3)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\User\sht\sht3x.c)(0x63FF64F0)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\sht3x.o --omf_browse .\objects\sht3x.crf --depend .\objects\sht3x.d)
+I (..\Source\User\sht\sht3x.h)(0x63FF17D9)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+I (..\Source\User\usart\bsp_usart.h)(0x62CCEF76)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_adc.c)(0x62D4BAF5)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_adc.o --omf_browse .\objects\hk32f030m_adc.crf --depend .\objects\hk32f030m_adc.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_awu.c)(0x5E5DD23A)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_awu.o --omf_browse .\objects\hk32f030m_awu.crf --depend .\objects\hk32f030m_awu.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_beep.c)(0x5E6A12C8)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_beep.o --omf_browse .\objects\hk32f030m_beep.crf --depend .\objects\hk32f030m_beep.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_crc.c)(0x5E5E0D80)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_crc.o --omf_browse .\objects\hk32f030m_crc.crf --depend .\objects\hk32f030m_crc.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_exti.c)(0x5E5DD28E)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_exti.o --omf_browse .\objects\hk32f030m_exti.crf --depend .\objects\hk32f030m_exti.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_flash.c)(0x5F5EE30A)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_flash.o --omf_browse .\objects\hk32f030m_flash.crf --depend .\objects\hk32f030m_flash.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_gpio.c)(0x5F5EE542)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_gpio.o --omf_browse .\objects\hk32f030m_gpio.crf --depend .\objects\hk32f030m_gpio.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_i2c.c)(0x5E5E0D98)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_i2c.o --omf_browse .\objects\hk32f030m_i2c.crf --depend .\objects\hk32f030m_i2c.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_iwdg.c)(0x5E5DD318)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_iwdg.o --omf_browse .\objects\hk32f030m_iwdg.crf --depend .\objects\hk32f030m_iwdg.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_misc.c)(0x5E5DD32A)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_misc.o --omf_browse .\objects\hk32f030m_misc.crf --depend .\objects\hk32f030m_misc.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_pwr.c)(0x5E65BD36)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_pwr.o --omf_browse .\objects\hk32f030m_pwr.crf --depend .\objects\hk32f030m_pwr.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_rcc.c)(0x5E5E0E0A)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_rcc.o --omf_browse .\objects\hk32f030m_rcc.crf --depend .\objects\hk32f030m_rcc.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_spi.c)(0x5E5E2DC2)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_spi.o --omf_browse .\objects\hk32f030m_spi.crf --depend .\objects\hk32f030m_spi.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_syscfg.c)(0x5F5AEC90)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_syscfg.o --omf_browse .\objects\hk32f030m_syscfg.crf --depend .\objects\hk32f030m_syscfg.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_tim.c)(0x5E5E0DDA)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_tim.o --omf_browse .\objects\hk32f030m_tim.crf --depend .\objects\hk32f030m_tim.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_usart.c)(0x5E5E178C)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_usart.o --omf_browse .\objects\hk32f030m_usart.crf --depend .\objects\hk32f030m_usart.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\HK32F030M_Lib\src\hk32f030m_wwdg.c)(0x5E5E0DF8)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\hk32f030m_wwdg.o --omf_browse .\objects\hk32f030m_wwdg.crf --depend .\objects\hk32f030m_wwdg.d)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\CMSIS\HK32F030M\Source\system_hk32f030m.c)(0x5FD17BBE)(--c99 --gnu -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Source\Libraries\HK32F030M_Lib\inc -I ..\Source\Libraries\HK32F030M_Lib\src -I ..\Source\Libraries\CMSIS\CM0\Core -I ..\Source\Libraries\CMSIS\CM0 -I ..\Source\Libraries\CMSIS\HK32F030M\Include -I ..\Source\Libraries\CMSIS\HK32F030M\Source -I ..\Source\User -I ..\Source\User\led -I ..\Source\User\usart -I ..\Source\User\i2c -I ..\Source\User\sht-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DHK32F030M -DHK32F030MF4P6-o .\objects\system_hk32f030m.o --omf_browse .\objects\system_hk32f030m.crf --depend .\objects\system_hk32f030m.d)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\hk32f030m.h)(0x5F5AEBB6)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cm0.h)(0x5D1337BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmInstr.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\cmsis_armcc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\CM0\Core\core_cmFunc.h)(0x5D1337BA)
+I (..\Source\Libraries\CMSIS\HK32F030M\Include\system_hk32f030m.h)(0x5E5DC2BE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_def.h)(0x5E6A11A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\Source\User\hk32f030m_conf.h)(0x5E661B6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_rcc.h)(0x5E6A1246)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_crc.h)(0x5E5DCD84)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_exti.h)(0x5E5DCD9E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_flash.h)(0x5EBA7DC8)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_gpio.h)(0x5F36298A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_misc.h)(0x5E5DCF30)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_adc.h)(0x5E5DC35E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_syscfg.h)(0x5F5AEE22)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_i2c.h)(0x5E6A11EE)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_iwdg.h)(0x5E5DCF08)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_pwr.h)(0x5E65BD6A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_spi.h)(0x5E5E1518)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_tim.h)(0x5E5DD07A)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_usart.h)(0x5E6A127E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_wwdg.h)(0x5E5DD1BC)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_awu.h)(0x5E5DC37E)
+I (..\Source\Libraries\HK32F030M_Lib\inc\hk32f030m_beep.h)(0x5E787614)
+F (..\Source\Libraries\CMSIS\HK32F030M\Source\KEIL_Startup_hk32f030m.s)(0x5EEC358C)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_HK32F030MF4P6-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1"--list .\listings\keil_startup_hk32f030m.lst --xref -o .\objects\keil_startup_hk32f030m.o --depend .\objects\keil_startup_hk32f030m.d)
